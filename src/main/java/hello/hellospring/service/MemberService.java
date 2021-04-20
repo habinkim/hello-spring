@@ -6,6 +6,7 @@ import java.util.Optional;
 import hello.hellospring.domain.Member;
 import hello.hellospring.domain.MemberRepository;
 
+// @Service
 public class MemberService {
 
     private final MemberRepository memberRepository;
