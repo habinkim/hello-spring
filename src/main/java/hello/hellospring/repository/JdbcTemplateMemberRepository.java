@@ -1,4 +1,4 @@
-package hello.hellospring.domain;
+package hello.hellospring.repository;
 
 import java.util.HashMap;
 import java.util.List;
@@ -11,6 +11,8 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.simple.SimpleJdbcInsert;
+
+import hello.hellospring.domain.Member;
 
 public class JdbcTemplateMemberRepository implements MemberRepository {
 

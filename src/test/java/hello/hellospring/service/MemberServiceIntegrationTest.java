@@ -10,7 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
 
 import hello.hellospring.domain.Member;
-import hello.hellospring.domain.MemberRepository;
+import hello.hellospring.repository.MemberRepository;
 
 @SpringBootTest
 @Transactional

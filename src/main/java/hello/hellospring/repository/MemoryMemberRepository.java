@@ -1,10 +1,12 @@
-package hello.hellospring.domain;
+package hello.hellospring.repository;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+
+import hello.hellospring.domain.Member;
 
 // @Repository
 public class MemoryMemberRepository implements MemberRepository {

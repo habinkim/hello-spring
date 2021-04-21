@@ -1,4 +1,4 @@
-package hello.hellospring.domain;
+package hello.hellospring.repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,6 +12,8 @@ import java.util.Optional;
 import javax.sql.DataSource;
 
 import org.springframework.jdbc.datasource.DataSourceUtils;
+
+import hello.hellospring.domain.Member;
 
 public class JdbcMemberRepository implements MemberRepository {
 
